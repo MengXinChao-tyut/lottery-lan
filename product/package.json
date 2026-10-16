@@ -1,0 +1,26 @@
+{
+  "name": "lucky",
+  "version": "2.0.0",
+  "description": "年会抽奖（Vue3 + Vite 重构版）",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node ../launcher.cjs",
+    "test": "node --test test/*.test.mjs",
+    "serve": "npm run start"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "moshang",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2",
+    "vite": "^4.5.3"
+  }
+}

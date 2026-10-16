@@ -1,0 +1,21 @@
+{
+  "name": "lottery-lan-server",
+  "version": "2.0.0",
+  "description": "Local network signup and server-owned lottery",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "author": "moshang",
+  "license": "MIT",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2"
+  },
+  "overrides": {
+    "exceljs": { "uuid": "11.1.1" }
+  }
+}
